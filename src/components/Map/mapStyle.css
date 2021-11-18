@@ -1,0 +1,15 @@
+.weather-desc{
+    position: absolute;
+    color: rgb(236, 90, 115);
+    font-weight: 500;
+    font-size: 0.8rem;
+    top: 0;
+}
+.weather{
+    position: relative;
+    margin:15px;
+    width: 100px;
+}
+.weather-image{
+    position: relative;
+}

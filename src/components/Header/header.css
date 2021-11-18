@@ -1,0 +1,21 @@
+.header-input{
+    width:100%;
+    margin-left: auto !important;
+}
+.header-app-name{
+    font-weight: 600;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+#search{
+    border:1.5px solid gray
+}
+@media only screen and (min-width: 600px) {
+    .header-input{
+        width:300px !important
+    }
+    #search{
+        border:1px solid beige
+    }
+}

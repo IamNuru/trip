@@ -1,0 +1,31 @@
+#currentplace{
+    max-height: 100% !important;
+    top:10px !important;
+}
+.current-img{
+    height: 350px;
+    width: 85%;
+    margin: auto;
+    top:10px
+}
+.award-type{
+    font-size: 14px;
+    line-height: 1.2;
+}
+.award-chip{
+    background-color: rgb(221, 215, 215);
+    border-radius: 3px;
+    padding: 2px 4px;
+    margin: 4px;
+    border: 1px solid rgb(156, 154, 154)
+}
+.award-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+.award-year{
+    color: rgb(248, 36, 71);
+    padding: 0px 4px;
+}

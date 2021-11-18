@@ -1,0 +1,30 @@
+.markerContainer{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+
+.map-paper{
+    -webkit-box-shadow: 0px 7px 6px -4px #7A7A7A; 
+    box-shadow: 0px 7px 6px -4px #7A7A7A;
+    display: block;
+    background-color: white;
+    padding: 1px;
+    max-width: 100px;
+    overflow: hidden;
+    text-align: center;
+}
+/* .map-paper:hover{
+    cursor: pointer;
+    background-color: rgb(214, 205, 205);
+    border: 2px solid rgb(126, 199, 241);
+} */
+.paper-title{
+    font-weight: 600;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+.paper-img{
+    height: 60px;
+    width: 100%
+}

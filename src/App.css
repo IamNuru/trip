@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+ul, li{
+    padding: 0;
+    margin:0;
+}
+.mb-2{
+    margin-bottom: 0.25rem;
+}
+.mb-4{
+    margin-bottom: 0.5rem;
+}
+.mb-8{
+    margin-bottom: 1rem;
+}
+.mb-12{
+    margin-bottom: 1.5rem;
+}
+.mb-16{
+    margin-bottom: 2rem;
+}
+.my-2{
+    margin-bottom: 0.25rem;
+    margin-top: 0.25rem;
+}
+.my-4{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+.my-8{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.my-12{
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+.my-16{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.mx-2{
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+.mx-4{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.mx-8{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.mx-12{
+    margin-left: 1rem;
+    margin-top: 1.-right;
+}
+.mx-16{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.m-auto{
+    margin:auto
+}
+.font-weight-600{
+    font-weight: 600;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-xs{
+    font-size: 0.75rem;
+    line-height: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-sm{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.links{
+    color:rgb(38, 38, 143);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    text-transform: capitalize !important;
 }
 
-.App-link {
-  color: #61dafb;
+/**text align **/
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/** width **/
+.w-100{
+    width: 100%;
+}
+.w-50{
+    width: 50%;
+}
+.w-25{
+    width: 25%;
+}
+
+
+/** displays **/
+.flex{
+    display: flex;
+}
+.block{
+    display: block
+}
+
+.gray-star{
+    color: gray
+}
+.yellow-star{
+    color: rgb(228, 228, 8)
+}
+
+
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+
+
+
+.font-16{
+    font-size: 16px !important;
 }
